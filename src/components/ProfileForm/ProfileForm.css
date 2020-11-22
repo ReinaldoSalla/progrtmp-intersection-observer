@@ -1,0 +1,46 @@
+.profile--form__main--wrapper {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile--form__form {
+  padding-bottom: 1.5rem;
+  margin: 3rem 3rem;
+  border: 1px solid black;
+  flex: 0 1 450px;
+}
+
+.profile--form__title {
+  padding: 0;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.profile--form__label {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.profile--form__input--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.profile--form__input {
+  flex: 0 1 350px;
+  margin: 0.5rem 1rem;
+}
+
+.profile--form__button--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.profile--form__label--check--wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}

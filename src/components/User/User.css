@@ -1,0 +1,38 @@
+/* .user__main--wrapper {
+  width: 100%;
+  height: 800px;
+  background: url('https://picsum.photos/id/135/2560/1920');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.user__text {
+  color: white;
+} */
+
+/* table,
+td {
+  border: 1px solid #333;
+} */
+
+/* thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+} */
+
+.user__main--wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+}

@@ -1,0 +1,48 @@
+.navbar__main-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: var(--navbar-height);
+  padding: 0 3em;
+  border: 1px solid black;
+}
+
+.navbar__modal-wrapper {
+  position: relative;
+}
+
+.navbar__modal--button {
+  border: 1px solid transparent;
+}
+
+.navbar__modal--area {
+  position: absolute;
+  padding-top: 1em;
+}
+
+.navbar__modal--features {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  border: 1px solid black;
+}
+
+.navbar__modal--features a:nth-of-type(n) {
+  margin: 1em 0;
+}
+
+.navbar__button {
+  background: lightblue;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: opacity 500ms;
+}
+
+.navbar__button:hover {
+  opacity: 0.8;
+}
+
+.navbar__button:active {
+  opacity: 0.5;
+}

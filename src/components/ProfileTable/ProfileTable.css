@@ -1,0 +1,14 @@
+.profile--table__main--wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+}
