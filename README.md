@@ -1,1 +1,1 @@
-progrtmp-jsx in development
+progrtmp-intersection-observer in development
